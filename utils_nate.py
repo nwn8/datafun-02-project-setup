@@ -80,19 +80,7 @@ Standard Deviation of Temperature: {stdev_score:.2f}
 
 def get_byline() -> str:
     '''
-    Get a byline for my analytics projects.
-       
-    Returns a string byline that illustrates my specific skills.
-
-    A function is a block of code that performs a task.
-    This function just returns our byline.
-    We can call this (or other functions) in later modules 
-    so we can write it once and reuse it. 
-    We use a type hint to indicate this function returns a string
-    (that is, it has a Python type of str).
-    It doesn't need any additional information passed in, 
-    so there's nothing needed inside the parentheses.
-    Everything afer the colon must be indented consistently (usually 4 spaces)
+    This is the byline from nate_utils
     '''
     return byline
 
@@ -122,8 +110,5 @@ def main() -> None:
 
 # If we are running this file as a script then call main()
 # and verify our code works as expected.
-
-if __name__ == '__main__':
-    main()
 
 #TODO: Run this as a script and verify all code works as intended.
